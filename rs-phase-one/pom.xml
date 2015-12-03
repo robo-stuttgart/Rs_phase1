@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>rs-phase-one-main</module>
+  	<module>rs-phase-one-ai</module>
   </modules>
 </project>
