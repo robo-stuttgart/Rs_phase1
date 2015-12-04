@@ -1,10 +1,55 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.stuttgart-knights</groupId>
-    <artifactId>rs-phase-one</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <artifactId>rs-phase-one-main</artifactId>
-  
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.stuttgart-knights</groupId>
+		<artifactId>rs-phase-one</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>rs-phase-one-main</artifactId>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>com.stuttgart-knights</groupId>
+			<artifactId>rs-phase-one-ai</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.stuttgart-knights</groupId>
+			<artifactId>rs-phase-one-worldpredictor</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.stuttgart-knights</groupId>
+			<artifactId>rs-phase-one-skills</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.stuttgart-knights</groupId>
+			<artifactId>rs-phase-one-gui</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.stuttgart-knights</groupId>
+			<artifactId>rs-phase-one-networkcomm</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.stuttgart-knights</groupId>
+			<artifactId>rs-phase-one-pathplanning</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.stuttgart-knights</groupId>
+			<artifactId>rs-phase-one-math</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.stuttgart-knights</groupId>
+			<artifactId>rs-phase-one-model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+	</dependencies>
 </project>

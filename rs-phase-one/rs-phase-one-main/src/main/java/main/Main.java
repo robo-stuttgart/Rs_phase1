@@ -1,9 +1,12 @@
 package main;
 
+import ai.IAmAClass;
+
 public class Main {
 
 	public static void main(String[] args) {
 
+		IAmAClass test = new IAmAClass();
 		
 		// startup ()
 		//   establish network connection (google ProtoBuf)

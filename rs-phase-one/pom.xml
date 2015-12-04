@@ -7,5 +7,12 @@
   <modules>
   	<module>rs-phase-one-main</module>
   	<module>rs-phase-one-ai</module>
+  	<module>rs-phase-one-worldpredictor</module>
+  	<module>rs-phase-one-skills</module>
+  	<module>rs-phase-one-gui</module>
+  	<module>rs-phase-one-networkcomm</module>
+  	<module>rs-phase-one-pathplanning</module>
+  	<module>rs-phase-one-math</module>
+  	<module>rs-phase-one-model</module>
   </modules>
 </project>
